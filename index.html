@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>&gt;.&lt;</title>
+    <title>сайт никитки яндиева >.< </title>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="preload" href="https://www.google.com/s2/favicons?domain=donatepay.ru&sz=32" as="image">
     <link rel="preload" href="https://www.google.com/s2/favicons?domain=t.me&sz=32" as="image">
@@ -923,7 +923,7 @@
             const cardNumber = element.querySelector('.card-text').textContent.trim();
             navigator.clipboard.writeText(cardNumber).then(() => {
                 const originalHTML = element.innerHTML;
-                element.innerHTML = '<span style="font-size:20px;">✅</span> <span style="font-weight:500;">Скопировано!</span>';
+                element.innerHTML = '<span style="font-size:20px;">^_^</span> <span style="font-weight:500;">скопировано</span>';
                 element.style.background = 'rgba(76, 175, 80, 0.2)';
                 element.style.borderColor = '#4CAF50';
                 element.style.color = '#8bc34a';
@@ -964,7 +964,7 @@
                         ? track.image[2]['#text'] 
                         : 'https://www.google.com/s2/favicons?domain=last.fm&sz=64';
                     
-                    const statusText = isNowPlaying ? 'сейчас играет' : '🎧 Недавно играло';
+                    const statusText = isNowPlaying ? 'сейчас слушаю' : 'недавно слушал';
                     
                     widget.innerHTML = `
                         <img src="${coverUrl}" alt="Обложка" class="lastfm-cover" loading="lazy" 
